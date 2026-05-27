@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terra do Amanhã | Agrinho</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://tailwindcss.com"></script>
+    <!-- Fontes do Google -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Inter:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Link para o arquivo de estilo local -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-stone-100 text-stone-900 transition-colors duration-300">
+
+    <!-- Painel do Hub de Acessibilidade -->
+    <div id="hub-acessibilidade" class="fixed bottom-5 right-5 z-50 bg-white p-4 rounded-xl shadow-2xl border border-stone-200">
+        <h3 class="font-bold text-xs uppercase mb-3 text-stone-700 tracking-wider">♿ Acessibilidade</h3>
+        <div class="flex flex-col gap-2">
+            <div class="flex justify-between items-center gap-4">
+                <span class="text-xs font-semibold">Fonte:</span>
+                <div class="flex gap-1">
+                    <button id="font-down" class="px-2 py-1 bg-stone-200 hover:bg-stone-300 rounded text-xs font-bold">-</button>
+                    <button id="font-up" class="px-2 py-1 bg-stone-200 hover:bg-stone-300 rounded text-xs font-bold">+</button>
+                </div>
+            </div>
+            <button id="btn-contraste" class="w-full py-1.5 bg-stone-800 hover:bg-stone-900 text-white rounded text-xs font-semibold transition-all">Alto Contraste</button>
+            <button id="btn-voz" class="w-full py-1.5 bg-green-700 hover:bg-green-800 text-white rounded text-xs font-semibold transition-all">Ouvir Página</button>
+        </div>
+    </div>
+
+    <!-- Conteúdo Dinâmico com Estilo Editorial -->
+    <main class="max-w-4xl mx-auto px-6 py-20 texto-dinamico">
+        <header class="mb-16 border-b border-stone-300 pb-8 secao-leitura">
+            <span class="text-xs uppercase tracking-widest text-green-800 font-bold">Concurso Agrinho</span>
+            <h1 class="font-serif text-5xl md:text-7xl mt-4 text-stone-950">Terra do <span class="italic text-green-700">Amanhã</span></h1>
+            <p class="mt-6 text-lg text-stone-600 leading-relaxed">Uma landing page que explora o futuro do agronegócio sustentável. O projeto une um design sofisticado com recursos robustos de inclusão digital.</p>
+        </header>
+
+        <section class="grid md:grid-cols-2 gap-12 items-center mb-16 secao-leitura">
+            <div>
+                <h2 class="font-serif text-3xl mb-4 text-stone-950">Objetivo do Projeto</h2>
+                <p class="text-stone-600 leading-relaxed">Demonstrar como a tecnologia pode ser aplicada tanto no campo quanto na interface do usuário através de ferramentas de acessibilidade nativas, garantindo a informação para todos.</p>
+            </div>
+            <div>
+                <img src="https://unsplash.com" alt="Tecnologia no campo" class="rounded-lg shadow-lg">
+            </div>
+        </section>
+    </main>
+
+    <!-- Link para a lógica em JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
