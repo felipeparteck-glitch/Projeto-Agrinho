@@ -1,0 +1,42 @@
+/* Configuração de Tipografia */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Transição suave de cor ao ativar o alto contraste */
+body {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Classes ativadas pelo modo Alto Contraste / Dark Mode */
+body.alto-contraste {
+    background-color: #121212 !important;
+    color: #f5f5f5 !important;
+}
+
+body.alto-contraste .text-stone-950,
+body.alto-contraste .text-stone-600,
+body.alto-contraste .text-green-700,
+body.alto-contraste .text-green-800 {
+    color: #ffffff !important;
+}
+
+body.alto-contraste .border-stone-300 {
+    border-color: #404040 !important;
+}
+
+body.alto-contraste #hub-acessibilidade {
+    background-color: #262626 !important;
+    border-color: #404040 !important;
+    color: #ffffff !important;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.7);
+}
+
+body.alto-contraste #hub-acessibilidade button {
+    background-color: #404040 !important;
+    color: #ffffff !important;
+}
