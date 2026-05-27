@@ -20,7 +20,6 @@ O projeto conta com um painel de controle exclusivo que permite:
 
 ### 🎨 UI/UX & Design
 * **Design Responsivo:** Totalmente adaptável para dispositivos móveis e desktop via Tailwind CSS.
-* **Scroll Animations:** Efeito de revelação de elementos utilizando Intersection Observer.
 * **Estilo Editorial:** Uso de tipografia serifada (Playfair Display) para títulos e sans-serif (Inter) para corpo de texto, criando uma hierarquia visual clara.
 
 ### 🚀 Tecnologias Utilizadas
@@ -41,3 +40,4 @@ O projeto conta com um painel de controle exclusivo que permite:
 | `style.css`   | Arquivo de estilização e classes de alto contraste|
 | `script.js`   | Lógica de acessibilidade e interatividade         |
 | `README.md`   | Documentação do projeto                           |
+
